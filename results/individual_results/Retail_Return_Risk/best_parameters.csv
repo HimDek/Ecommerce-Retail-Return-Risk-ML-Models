@@ -1,0 +1,6 @@
+Dataset,Model,Best_CV_roc_auc,Best_Parameters
+retail_return_risk,Logistic,0.58984349573955,"{'model__solver': 'lbfgs', 'model__penalty': 'l2', 'model__max_iter': 1000, 'model__C': 1}"
+retail_return_risk,LDA,0.589838124449793,"{'model__shrinkage': 'auto', 'model__solver': 'lsqr'}"
+retail_return_risk,QDA,0.5882606147163179,"{'model__reg_param': 0.1, 'model__solver': 'svd'}"
+retail_return_risk,Random Forest,0.5911182773065092,"{'model__n_estimators': 400, 'model__min_samples_split': 5, 'model__min_samples_leaf': 1, 'model__max_features': 'log2', 'model__max_depth': 10, 'model__bootstrap': True}"
+retail_return_risk,KNN,0.5506878766132456,"{'model__weights': 'uniform', 'model__p': 1, 'model__n_neighbors': 21, 'model__leaf_size': 20}"

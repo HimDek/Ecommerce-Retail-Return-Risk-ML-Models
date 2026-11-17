@@ -1,0 +1,4 @@
+Dataset,Original_Rows,Features,Numerical_Features,Categorical_Features,Train_Size,Test_Size,Negative_Count,Positive_Count,Return_Rate
+Ecommerce_2000,1650,21,12,9,1320,330,1551,99,0.06
+Retail_Return_Risk,137860,16,12,4,82716,55144,71851,66009,0.47881183809661976
+BADS_WS2021_known,65150,14,8,6,39090,26060,32102,33048,0.5072601688411359

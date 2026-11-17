@@ -1,0 +1,6 @@
+Dataset,Model,Best_CV_roc_auc,Best_Parameters
+Ecommerce_2000,Logistic,0.5603359447004609,"{'model__solver': 'saga', 'model__penalty': 'l1', 'model__max_iter': 100, 'model__C': 0.1}"
+Ecommerce_2000,LDA,0.5160913594470046,"{'model__shrinkage': 'auto', 'model__solver': 'lsqr'}"
+Ecommerce_2000,QDA,0.5326282258064516,"{'model__reg_param': 0.0, 'model__shrinkage': 'auto', 'model__solver': 'eigen'}"
+Ecommerce_2000,Random Forest,0.5902010368663593,"{'model__n_estimators': 200, 'model__min_samples_split': 10, 'model__min_samples_leaf': 5, 'model__max_features': 'log2', 'model__max_depth': 5, 'model__bootstrap': False}"
+Ecommerce_2000,KNN,0.4987665898617511,"{'model__weights': 'uniform', 'model__p': 1, 'model__n_neighbors': 21, 'model__leaf_size': 20}"

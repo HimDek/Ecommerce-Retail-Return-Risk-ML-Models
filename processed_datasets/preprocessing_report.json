@@ -1,0 +1,137 @@
+[
+  {
+    "dataset": "Ecommerce_2000.csv",
+    "target_source": "Returned",
+    "rows_original": 2000,
+    "duplicates_removed": 20,
+    "invalid_domain_rows_removed": 0,
+    "invalid_target_rows_removed": 0,
+    "unnecessary_or_leakage_columns_removed": [
+      "OrderID",
+      "CustomerID",
+      "FirstName",
+      "LastName",
+      "OrderDate",
+      "OrderDayOfWeek",
+      "Returned"
+    ],
+    "iqr_outliers": {
+      "UnitPrice": {
+        "lower_bound": -515.0675,
+        "upper_bound": 725.245,
+        "rows_removed": 96
+      },
+      "Quantity": {
+        "lower_bound": -3.0,
+        "upper_bound": 6.0,
+        "rows_removed": 0
+      }
+    },
+    "empty_columns_removed": [],
+    "constant_columns_removed": [],
+    "rows_removed_missing_final_features": 0,
+    "empty_columns_removed_final": [],
+    "constant_columns_removed_final": [],
+    "rows_final": 1650,
+    "columns_final_including_target": 22,
+    "feature_count": 21,
+    "class_counts": {
+      "0": 1551,
+      "1": 99
+    },
+    "return_rate": 0.06,
+    "missing_values_final": 0,
+    "duplicate_rows_final": 0,
+    "output_file": "processed_datasets/Ecommerce_2000.csv"
+  },
+  {
+    "dataset": "retail_return_risk.csv",
+    "target_source": "returned",
+    "rows_original": 200000,
+    "duplicates_removed": 0,
+    "invalid_domain_rows_removed": 54011,
+    "unnecessary_or_leakage_columns_removed": [
+      "order_id"
+    ],
+    "invalid_target_rows_removed": 0,
+    "iqr_outliers": {
+      "product_price": {
+        "lower_bound": -129.13237070976297,
+        "upper_bound": 202.79036637066218,
+        "rows_removed": 1197
+      },
+      "past_purchase_count": {
+        "lower_bound": 2.0,
+        "upper_bound": 16.0,
+        "rows_removed": 6932
+      },
+      "session_length_minutes": {
+        "lower_bound": -125.81999504916186,
+        "upper_bound": 284.35035805954465,
+        "rows_removed": 0
+      },
+      "num_product_views": {
+        "lower_bound": -54.0,
+        "upper_bound": 86.0,
+        "rows_removed": 0
+      }
+    },
+    "empty_columns_removed": [],
+    "constant_columns_removed": [],
+    "rows_removed_missing_final_features": 0,
+    "empty_columns_removed_final": [],
+    "constant_columns_removed_final": [],
+    "rows_final": 137860,
+    "columns_final_including_target": 17,
+    "feature_count": 16,
+    "class_counts": {
+      "0": 71851,
+      "1": 66009
+    },
+    "return_rate": 0.47881183809661976,
+    "missing_values_final": 0,
+    "duplicate_rows_final": 0,
+    "output_file": "processed_datasets/retail_return_risk.csv"
+  },
+  {
+    "dataset": "BADS_WS2021_known.csv",
+    "target_source": "return",
+    "rows_original": 100000,
+    "duplicates_removed": 0,
+    "invalid_domain_rows_removed": 396,
+    "invalid_target_rows_removed": 0,
+    "unnecessary_or_leakage_columns_removed": [
+      "order_item_id",
+      "user_id",
+      "order_date",
+      "delivery_date",
+      "user_dob",
+      "user_reg_date"
+    ],
+    "iqr_outliers": {
+      "item_price": {
+        "lower_bound": -120.10000000000002,
+        "upper_bound": 229.90000000000003,
+        "rows_removed": 766
+      }
+    },
+    "empty_columns_removed": [],
+    "constant_columns_removed": [
+      "order_year"
+    ],
+    "rows_removed_missing_final_features": 0,
+    "empty_columns_removed_final": [],
+    "constant_columns_removed_final": [],
+    "rows_final": 65150,
+    "columns_final_including_target": 15,
+    "feature_count": 14,
+    "class_counts": {
+      "0": 32102,
+      "1": 33048
+    },
+    "return_rate": 0.5072601688411359,
+    "missing_values_final": 0,
+    "duplicate_rows_final": 0,
+    "output_file": "processed_datasets/BADS_WS2021_known.csv"
+  }
+]

@@ -1,0 +1,6 @@
+Dataset,Model,Best_CV_roc_auc,Best_Parameters
+BADS_WS2021_known,Logistic,0.6431203694045893,"{'model__solver': 'lbfgs', 'model__penalty': 'l2', 'model__max_iter': 1000, 'model__C': 0.1}"
+BADS_WS2021_known,LDA,0.6435878243166258,"{'model__shrinkage': 0.1, 'model__solver': 'lsqr'}"
+BADS_WS2021_known,QDA,0.6330898325670593,"{'model__reg_param': 0.0, 'model__shrinkage': 0.5, 'model__solver': 'eigen'}"
+BADS_WS2021_known,Random Forest,0.6459519298542724,"{'model__n_estimators': 100, 'model__min_samples_split': 2, 'model__min_samples_leaf': 2, 'model__max_features': 'sqrt', 'model__max_depth': None, 'model__bootstrap': False}"
+BADS_WS2021_known,KNN,0.6200614766216099,"{'model__weights': 'distance', 'model__p': 1, 'model__n_neighbors': 19, 'model__leaf_size': 30}"
